@@ -1,0 +1,32 @@
+{
+  "name": "instagram-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start":"node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaskaranpr/instagram-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaskaranpr/instagram-backend/issues"
+  },
+  "homepage": "https://github.com/jaskaranpr/instagram-backend#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1085.0",
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.4",
+    "util": "^0.12.4"
+  }
+}
